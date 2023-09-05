@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F314AF8D2A9E5ADC0063A073 /* TeamCityModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F314AF8C2A9E5ADC0063A073 /* TeamCityModelData.swift */; };
+		F35449592A9BDBA100E7FA9D /* TeamCity_CompanionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35449582A9BDBA100E7FA9D /* TeamCity_CompanionApp.swift */; };
+		F354495B2A9BDBA100E7FA9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354495A2A9BDBA100E7FA9D /* ContentView.swift */; };
+		F354495D2A9BDBA200E7FA9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F354495C2A9BDBA200E7FA9D /* Assets.xcassets */; };
+		F35449602A9BDBA200E7FA9D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F354495F2A9BDBA200E7FA9D /* Preview Assets.xcassets */; };
+		F354496A2A9BDC9C00E7FA9D /* Builds.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35449692A9BDC9C00E7FA9D /* Builds.swift */; };
+		F354496C2A9BDCA300E7FA9D /* Build.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354496B2A9BDCA300E7FA9D /* Build.swift */; };
+		F354496E2A9BDD9E00E7FA9D /* BuildStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354496D2A9BDD9E00E7FA9D /* BuildStatus.swift */; };
+		F35449702A9BDEEB00E7FA9D /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354496F2A9BDEEB00E7FA9D /* Link.swift */; };
+		F35449722A9BDF0900E7FA9D /* Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35449712A9BDF0900E7FA9D /* Links.swift */; };
+		F35449742A9BDFAB00E7FA9D /* BuildType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35449732A9BDFAB00E7FA9D /* BuildType.swift */; };
+		F35449762A9BE01800E7FA9D /* BuildTypeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35449752A9BE01800E7FA9D /* BuildTypeType.swift */; };
+		F35449792A9BE21400E7FA9D /* TeamCityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35449782A9BE21400E7FA9D /* TeamCityModel.swift */; };
+		F354497B2A9BE21C00E7FA9D /* TeamCityRestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354497A2A9BE21C00E7FA9D /* TeamCityRestHelper.swift */; };
+		F354497E2A9C7DD600E7FA9D /* BuildsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354497D2A9C7DD600E7FA9D /* BuildsView.swift */; };
+		F35449802A9C810800E7FA9D /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354497F2A9C810800E7FA9D /* ProjectsView.swift */; };
+		F35449822A9C827B00E7FA9D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35449812A9C827B00E7FA9D /* SettingsView.swift */; };
+		F35449862A9C8F1F00E7FA9D /* TeamCityModelMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35449852A9C8F1F00E7FA9D /* TeamCityModelMock.swift */; };
+		F37986552A9E5B780056CBEB /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37986542A9E5B780056CBEB /* OnboardingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F314AF8C2A9E5ADC0063A073 /* TeamCityModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamCityModelData.swift; sourceTree = "<group>"; };
+		F35449552A9BDBA100E7FA9D /* TeamCity Companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TeamCity Companion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35449582A9BDBA100E7FA9D /* TeamCity_CompanionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCity_CompanionApp.swift; sourceTree = "<group>"; };
+		F354495A2A9BDBA100E7FA9D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F354495C2A9BDBA200E7FA9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F354495F2A9BDBA200E7FA9D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F35449692A9BDC9C00E7FA9D /* Builds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builds.swift; sourceTree = "<group>"; };
+		F354496B2A9BDCA300E7FA9D /* Build.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Build.swift; sourceTree = "<group>"; };
+		F354496D2A9BDD9E00E7FA9D /* BuildStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildStatus.swift; sourceTree = "<group>"; };
+		F354496F2A9BDEEB00E7FA9D /* Link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Link.swift; sourceTree = "<group>"; };
+		F35449712A9BDF0900E7FA9D /* Links.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Links.swift; sourceTree = "<group>"; };
+		F35449732A9BDFAB00E7FA9D /* BuildType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildType.swift; sourceTree = "<group>"; };
+		F35449752A9BE01800E7FA9D /* BuildTypeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildTypeType.swift; sourceTree = "<group>"; };
+		F35449782A9BE21400E7FA9D /* TeamCityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCityModel.swift; sourceTree = "<group>"; };
+		F354497A2A9BE21C00E7FA9D /* TeamCityRestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCityRestHelper.swift; sourceTree = "<group>"; };
+		F354497D2A9C7DD600E7FA9D /* BuildsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildsView.swift; sourceTree = "<group>"; };
+		F354497F2A9C810800E7FA9D /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
+		F35449812A9C827B00E7FA9D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F35449852A9C8F1F00E7FA9D /* TeamCityModelMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCityModelMock.swift; sourceTree = "<group>"; };
+		F37986542A9E5B780056CBEB /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F35449522A9BDBA100E7FA9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F354494C2A9BDBA100E7FA9D = {
+			isa = PBXGroup;
+			children = (
+				F35449572A9BDBA100E7FA9D /* TeamCity Companion */,
+				F35449562A9BDBA100E7FA9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F35449562A9BDBA100E7FA9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F35449552A9BDBA100E7FA9D /* TeamCity Companion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F35449572A9BDBA100E7FA9D /* TeamCity Companion */ = {
+			isa = PBXGroup;
+			children = (
+				F35449832A9C8F0200E7FA9D /* Models */,
+				F354497C2A9C7DB600E7FA9D /* Views */,
+				F35449772A9BE20700E7FA9D /* Rest */,
+				F35449582A9BDBA100E7FA9D /* TeamCity_CompanionApp.swift */,
+				F35449682A9BDC8600E7FA9D /* DTOs */,
+				F354495C2A9BDBA200E7FA9D /* Assets.xcassets */,
+				F354495E2A9BDBA200E7FA9D /* Preview Content */,
+			);
+			path = "TeamCity Companion";
+			sourceTree = "<group>";
+		};
+		F354495E2A9BDBA200E7FA9D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F354495F2A9BDBA200E7FA9D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F35449682A9BDC8600E7FA9D /* DTOs */ = {
+			isa = PBXGroup;
+			children = (
+				F35449692A9BDC9C00E7FA9D /* Builds.swift */,
+				F354496B2A9BDCA300E7FA9D /* Build.swift */,
+				F354496D2A9BDD9E00E7FA9D /* BuildStatus.swift */,
+				F354496F2A9BDEEB00E7FA9D /* Link.swift */,
+				F35449712A9BDF0900E7FA9D /* Links.swift */,
+				F35449732A9BDFAB00E7FA9D /* BuildType.swift */,
+				F35449752A9BE01800E7FA9D /* BuildTypeType.swift */,
+			);
+			path = DTOs;
+			sourceTree = "<group>";
+		};
+		F35449772A9BE20700E7FA9D /* Rest */ = {
+			isa = PBXGroup;
+			children = (
+				F354497A2A9BE21C00E7FA9D /* TeamCityRestHelper.swift */,
+			);
+			path = Rest;
+			sourceTree = "<group>";
+		};
+		F354497C2A9C7DB600E7FA9D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F354495A2A9BDBA100E7FA9D /* ContentView.swift */,
+				F354497D2A9C7DD600E7FA9D /* BuildsView.swift */,
+				F354497F2A9C810800E7FA9D /* ProjectsView.swift */,
+				F35449812A9C827B00E7FA9D /* SettingsView.swift */,
+				F37986542A9E5B780056CBEB /* OnboardingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F35449832A9C8F0200E7FA9D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F35449842A9C8F0B00E7FA9D /* TeamCityModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F35449842A9C8F0B00E7FA9D /* TeamCityModel */ = {
+			isa = PBXGroup;
+			children = (
+				F314AF8C2A9E5ADC0063A073 /* TeamCityModelData.swift */,
+				F35449782A9BE21400E7FA9D /* TeamCityModel.swift */,
+				F35449852A9C8F1F00E7FA9D /* TeamCityModelMock.swift */,
+			);
+			path = TeamCityModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F35449542A9BDBA100E7FA9D /* TeamCity Companion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F35449632A9BDBA200E7FA9D /* Build configuration list for PBXNativeTarget "TeamCity Companion" */;
+			buildPhases = (
+				F35449512A9BDBA100E7FA9D /* Sources */,
+				F35449522A9BDBA100E7FA9D /* Frameworks */,
+				F35449532A9BDBA100E7FA9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TeamCity Companion";
+			productName = "TeamCity Companion";
+			productReference = F35449552A9BDBA100E7FA9D /* TeamCity Companion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F354494D2A9BDBA100E7FA9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F35449542A9BDBA100E7FA9D = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = F35449502A9BDBA100E7FA9D /* Build configuration list for PBXProject "TeamCity Companion" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F354494C2A9BDBA100E7FA9D;
+			productRefGroup = F35449562A9BDBA100E7FA9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F35449542A9BDBA100E7FA9D /* TeamCity Companion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F35449532A9BDBA100E7FA9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35449602A9BDBA200E7FA9D /* Preview Assets.xcassets in Resources */,
+				F354495D2A9BDBA200E7FA9D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F35449512A9BDBA100E7FA9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F354497B2A9BE21C00E7FA9D /* TeamCityRestHelper.swift in Sources */,
+				F314AF8D2A9E5ADC0063A073 /* TeamCityModelData.swift in Sources */,
+				F354495B2A9BDBA100E7FA9D /* ContentView.swift in Sources */,
+				F35449862A9C8F1F00E7FA9D /* TeamCityModelMock.swift in Sources */,
+				F35449592A9BDBA100E7FA9D /* TeamCity_CompanionApp.swift in Sources */,
+				F354496C2A9BDCA300E7FA9D /* Build.swift in Sources */,
+				F35449702A9BDEEB00E7FA9D /* Link.swift in Sources */,
+				F35449742A9BDFAB00E7FA9D /* BuildType.swift in Sources */,
+				F35449792A9BE21400E7FA9D /* TeamCityModel.swift in Sources */,
+				F35449822A9C827B00E7FA9D /* SettingsView.swift in Sources */,
+				F35449722A9BDF0900E7FA9D /* Links.swift in Sources */,
+				F354496E2A9BDD9E00E7FA9D /* BuildStatus.swift in Sources */,
+				F354497E2A9C7DD600E7FA9D /* BuildsView.swift in Sources */,
+				F35449762A9BE01800E7FA9D /* BuildTypeType.swift in Sources */,
+				F354496A2A9BDC9C00E7FA9D /* Builds.swift in Sources */,
+				F37986552A9E5B780056CBEB /* OnboardingView.swift in Sources */,
+				F35449802A9C810800E7FA9D /* ProjectsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F35449612A9BDBA200E7FA9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F35449622A9BDBA200E7FA9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F35449642A9BDBA200E7FA9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TeamCity Companion/Preview Content\"";
+				DEVELOPMENT_TEAM = ZNQBXBDT78;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devvix.TeamCity-Companion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F35449652A9BDBA200E7FA9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TeamCity Companion/Preview Content\"";
+				DEVELOPMENT_TEAM = ZNQBXBDT78;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devvix.TeamCity-Companion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F35449502A9BDBA100E7FA9D /* Build configuration list for PBXProject "TeamCity Companion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35449612A9BDBA200E7FA9D /* Debug */,
+				F35449622A9BDBA200E7FA9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F35449632A9BDBA200E7FA9D /* Build configuration list for PBXNativeTarget "TeamCity Companion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35449642A9BDBA200E7FA9D /* Debug */,
+				F35449652A9BDBA200E7FA9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F354494D2A9BDBA100E7FA9D /* Project object */;
+}
