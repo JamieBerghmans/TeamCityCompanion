@@ -9,10 +9,16 @@ import SwiftUI
 
 @main
 struct TeamCity_CompanionApp: App {
+    
+    @State var onBoardingComplete = false
+    
     var body: some Scene {
         WindowGroup {
-            OnboardingView()
-//            ContentView()
+            if (onBoardingComplete) {
+                ContentView()
+            } else {
+                OnboardingView(onBoardingComplete: $onBoardingComplete)
+            }
         }
     }
 }

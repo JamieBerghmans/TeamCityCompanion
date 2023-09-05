@@ -26,6 +26,7 @@
 		F35449822A9C827B00E7FA9D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35449812A9C827B00E7FA9D /* SettingsView.swift */; };
 		F35449862A9C8F1F00E7FA9D /* TeamCityModelMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35449852A9C8F1F00E7FA9D /* TeamCityModelMock.swift */; };
 		F37986552A9E5B780056CBEB /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37986542A9E5B780056CBEB /* OnboardingView.swift */; };
+		F3F93AD42AA7737B00EFB566 /* StatefulPreviewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F93AD32AA7737B00EFB566 /* StatefulPreviewWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		F35449812A9C827B00E7FA9D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		F35449852A9C8F1F00E7FA9D /* TeamCityModelMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCityModelMock.swift; sourceTree = "<group>"; };
 		F37986542A9E5B780056CBEB /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		F3F93AD32AA7737B00EFB566 /* StatefulPreviewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatefulPreviewWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 				F354497F2A9C810800E7FA9D /* ProjectsView.swift */,
 				F35449812A9C827B00E7FA9D /* SettingsView.swift */,
 				F37986542A9E5B780056CBEB /* OnboardingView.swift */,
+				F3F93AD32AA7737B00EFB566 /* StatefulPreviewWrapper.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 				F35449742A9BDFAB00E7FA9D /* BuildType.swift in Sources */,
 				F35449792A9BE21400E7FA9D /* TeamCityModel.swift in Sources */,
 				F35449822A9C827B00E7FA9D /* SettingsView.swift in Sources */,
+				F3F93AD42AA7737B00EFB566 /* StatefulPreviewWrapper.swift in Sources */,
 				F35449722A9BDF0900E7FA9D /* Links.swift in Sources */,
 				F354496E2A9BDD9E00E7FA9D /* BuildStatus.swift in Sources */,
 				F354497E2A9C7DD600E7FA9D /* BuildsView.swift in Sources */,

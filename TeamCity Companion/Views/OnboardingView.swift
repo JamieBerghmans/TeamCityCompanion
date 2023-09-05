@@ -14,6 +14,8 @@ struct OnboardingView: View {
         case teamCityAuthToken
     }
     
+    @Binding public var onBoardingComplete: Bool
+    
     @State private var teamCityUrl: String = ""
     @State private var teamCityAuthToken: String = ""
     @State private var validParameters: Bool = false
@@ -90,7 +92,7 @@ struct OnboardingView: View {
                     .clipShape(RoundedRectangle(cornerRadius: 25.0))
             }
             .padding(Edge.Set.horizontal, 16)
-            .disabled(!validParameters)
+//            .disabled(!validParameters)
         }
     }
 }
@@ -137,9 +139,12 @@ extension OnboardingView {
     
     func signIn() {
         // ToDo: Save details to keyvault
+        onBoardingComplete = true
     }
 }
 
-#Preview {
-    OnboardingView()
+struct OnBoardingView_Previews: PreviewProvider {
+    static var previews: some View {
+        StatefulPreviewWrapper(false) { OnboardingView(onBoardingComplete: $0) }
+    }
 }
